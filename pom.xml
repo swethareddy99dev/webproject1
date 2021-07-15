@@ -6,6 +6,10 @@
   <packaging>war</packaging>
   <version>1.0</version>
   <name>finalart Maven Webapp</name>
+  
+  <!--hi github-->
+  
+  
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
