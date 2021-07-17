@@ -2,7 +2,7 @@ FROM ubuntu
 
 MAINTAINER swethacloud <saswethareddy99@gmail.com>
 
-RUN yum update -y
+RUN sh get-docker.sh 
 
 CMD ["echo","hell world.."
 
