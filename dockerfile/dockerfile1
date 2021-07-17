@@ -1,0 +1,8 @@
+FROM ubuntu
+
+MAINTAINER swethacloud <saswethareddy99@gmail.com>
+
+RUN yum update -y
+
+CMD ["echo","hell world.."
+
