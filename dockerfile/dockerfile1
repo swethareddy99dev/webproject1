@@ -6,3 +6,5 @@ RUN yum update -y
 
 CMD ["echo","hell world.."
 
+docker build -t ubuntu
+
