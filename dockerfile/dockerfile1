@@ -1,10 +1,8 @@
-FROM ubuntu
+FROM openjdk:8
+ EXPOSE 8080
+ 
+ ADD target/finalart.war
+ 
+ ENTRYPOINT ["java","/finalart.war"]
 
-MAINTAINER swethacloud <saswethareddy99@gmail.com>
-
-RUN sh get-docker.sh 
-
-CMD ["echo","hell world.."
-
-docker build -t ubuntu
 
