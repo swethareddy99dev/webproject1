@@ -1,8 +1,8 @@
 FROM openjdk:8
  EXPOSE 8080
  
- ADD target/finalart.war
+ ADD target/finalart.war finalart.war
  
- ENTRYPOINT ["java","/finalart.war"]
+ ENTRYPOINT ["webapp","/finalart.war"]
 
 
