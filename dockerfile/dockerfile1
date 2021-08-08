@@ -3,6 +3,6 @@ FROM openjdk:8
  
  ADD target/finalart.war finalart.war
  
- ENTRYPOINT ["webapp","/finalart.war"]
+ ENTRYPOINT ["webapp","-war","/finalart.war"]
 
 
