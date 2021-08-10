@@ -5,9 +5,10 @@
   <artifactId>finalart</artifactId>
   <packaging>war</packaging>
   <version>1.0</version>
-  <name>finalart Maven Webapp</name>
+  <name>finalart Maven Webapp</name
   
-  <!--demo on github---->
+      <!--webhook ---->
+
     <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
